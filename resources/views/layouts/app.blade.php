@@ -27,7 +27,10 @@
                     <a href="" class="p-6">Gibril Darboe</a>
                 </li>
                 <li>
-                    <a href="" class="p-6">Logout</a>
+                    <form action="{{ route('logout') }}" method="POST">
+                        @csrf
+                        <button type="submit" class="p-6 inline">Logout</button>
+                    </form>
                 </li>
                 @endauth
                 @guest
