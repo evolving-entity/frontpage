@@ -7,6 +7,7 @@
         <title>frontPAGE</title>
 
         <link rel="stylesheet" href="{{ asset ('css/app.css') }}">
+        <link rel="shortcut icon" href="{{ asset('img/favicon.svg') }}" type="image/x-icon">
     </head>
     <body class="bg-gray-200">
         <nav class="p-6 bg-white flex justify-between mb-6">
