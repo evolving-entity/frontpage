@@ -12,6 +12,9 @@
     <body class="bg-gray-200">
         <nav class="p-6 bg-white flex justify-between mb-6">
             <ul class="flex items-center">
+                <a href="/" class="navbar-brand">
+                    <img src="/img/logo.png" alt="">
+                </a>
                 <li>
                     <a href="" class="p-6">Home</a>
                 </li>
